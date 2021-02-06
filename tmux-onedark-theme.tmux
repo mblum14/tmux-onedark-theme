@@ -78,8 +78,8 @@ set "@prefix_highlight_copy_mode_attr" "fg=$onedark_black,bg=$onedark_green"
 set "@prefix_highlight_output_prefix" "  "
 
 status_widgets=$(get "@onedark_widgets")
-wg_is_synced="#[fg=$onedark_blue,bg=$onedark_black,bold]#{?synchronize-panes, [S],#[fg=$onedark_visual_grey,bg=$onedark_black,nobold][S]}#[default]"
-wg_is_zoomed="#[fg=$onedark_blue,bg=$onedark_black,bold]#{?window_zoomed_flag, [Z],#[fg=$onedark_visual_grey,bg=$onedark_black,nobold][Z]}#[default]"
+wg_is_synced="#[fg=$onedark_blue,bg=$onedark_black,bold]#{?synchronize-panes,[S],#[fg=$onedark_visual_grey,bg=$onedark_black,nobold][S]}#[default]"
+wg_is_zoomed="#[fg=$onedark_blue,bg=$onedark_black,bold]#{?window_zoomed_flag,[Z],#[fg=$onedark_visual_grey,bg=$onedark_black,nobold][Z]}#[default]"
 time_format=$(get "@onedark_time_format" "%R")
 date_format=$(get "@onedark_date_format" "%d/%m/%Y")
 
